@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 """
-Improved TCP port scanner (beginner-friendly, concurrent).
-Usage examples:
-  py port_scan_improved.py 127.0.0.1 --start 1 --end 1024
-  py port_scan_improved.py example.com --common
-  py port_scan_improved.py 192.168.29.130 --ports 22,80,443,8080 --timeout 0.6 --workers 100 --output results.csv
-Note: Scan only machines you own or have permission to test.
+Improved TCP port scanner  
+
 """
 import socket
 import argparse
@@ -169,3 +165,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
